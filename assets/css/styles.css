@@ -37,7 +37,7 @@ body {
     top:0;
     display: table;
     width: 200px;
-    height: 850px;
+    height: 100%;
     background-color: black;
     padding-top:140px;
 }
@@ -108,10 +108,11 @@ body {
     border-radius: 5px;
 }
 #motto {
+    border-bottom: #4074b5 solid 2px;
     top:0;
     transition: top 0.5s;
     display: block;
-    height: 140px;
+    height: 16.7%;
     width: 100%;
     position: fixed;
     left: 120px;
