@@ -107,6 +107,15 @@ body {
     border: 1px solid black;
     border-radius: 5px;
 }
+.btn {
+    background-color: rgb(92, 92, 92);
+    width: 100%;
+    color: white;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+
+}
 #motto {
     border-bottom: #4074b5 solid 2px;
     top:0;
