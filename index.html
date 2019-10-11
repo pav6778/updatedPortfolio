@@ -1,21 +1,4 @@
 
-<?php
-
-if($_POST["submit"]) {
-    $recipient="your@email.address";
-    $subject="Form to email message";
-    $sender=$_POST["sender"];
-    $senderEmail=$_POST["senderEmail"];
-    $message=$_POST["message"];
-
-    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
-
-    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
-
-    $thankYou="<p>Thank you! Your message has been sent.</p>";
-}
-
-?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -112,13 +95,14 @@ if($_POST["submit"]) {
         <div>
           <h2>Contact</h2>
           <div>
-            <form method="POST"action="contact.php" id="emailForm">
+            <form method="POST"action="https://formsubmit.co/pav67us@gmail.com" id="emailForm">
               <label>Name</label>
-              <input placeholder="John Smith" type="text" class="form-control" />
+              <input placeholder="John Smith" name="name"type="text" class="form-control" />
               <label>Email</label>
-              <input placeholder="mrsmith@gmail.com" type="email" class="form-control" />
-              <label>Comment</label>
+              <input placeholder="mrsmith@gmail.com" name="mail"type="email" class="form-control" />
+              <label>Message</label>
               <textarea class="form-control" rows="6"></textarea>
+              <button type="submit" class="btn btn-dark mt-3 form-control">Send</button>
             </form>
           </div>
         </div>
