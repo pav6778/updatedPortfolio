@@ -188,7 +188,7 @@ background-color: black;
 
 }
 
-@media (max-width: 570px) {
+@media (max-width: 360px) {
     body {
         background-image: url(../images/photo-1486312338219-ce68d2c6f44d.jpeg);
         background-repeat: no-repeat;
@@ -198,7 +198,7 @@ background-color: black;
 
     #motto {
         border: none;
-        padding-top: 250px;
+        padding-top: 150px;
         transition: top 0.5s;
         display: block;
         position: static;
@@ -220,11 +220,11 @@ background-color: black;
         position: fixed;
         top:0;
         height: 50px;
-        width: 125px;
+        width: 90px;
         background-color: black;
         color: white;
         border:none;
-        font-size: 1em;
+        font-size: .7em;
         outline: none;
         border-left: 2px solid rgb(194, 117, 0);;
         border-right: 2px solid rgb(194, 117, 0);
@@ -239,11 +239,11 @@ background-color: black;
         left:25%;
         top:0;
         height: 50px;
-        width: 125px;
+        width: 90px;
         background-color: black;
         color: white;
         border:none;
-        font-size: 1em;
+        font-size: .7em;
         outline: none;
         border-left: 2px solid rgb(194, 117, 0);;
         border-right: 2px solid rgb(194, 117, 0);
@@ -258,11 +258,11 @@ background-color: black;
         left:50%;
         top:0;
         height: 50px;
-        width: 125px;
+        width: 90px;
         background-color: black;
         color: white;
         border:none;
-        font-size: 1em;
+        font-size: .7em;
         outline: none;
         border-left: 2px solid rgb(194, 117, 0);;
         border-right: 2px solid rgb(194, 117, 0);
@@ -277,11 +277,11 @@ background-color: black;
         left:75%;
         top:0;
         height: 50px;
-        width: 125px;
+        width: 90px;
         background-color: black;
         color: white;
         border:none;
-        font-size: 1em;
+        font-size: .7em;
         outline: none;
         border-left: 2px solid rgb(194, 117, 0);;
         border-right: 2px solid rgb(194, 117, 0);
@@ -294,10 +294,11 @@ background-color: black;
     .container {
         padding: 10px 0 10px 0;
         background-color: rgba(255, 255, 255, 0.55);
-        height: 120vh;
+        height: 145vh;
         border-top: 1px solid rgb(0, 0, 0);
         border-bottom: 1px solid rgb(0, 0, 0);
     }
+
     #social {
         background-color: white;
         position: fixed;
@@ -310,5 +311,22 @@ background-color: black;
         padding: 0;
         background-color: black;
         margin: 0;
+        }
+        #portfolioImg {
+            border: 2px solid green;
+            margin-right: 10px;
+        }
+        #p {
+            font-size: .9em;
+        }
+        #aboutMe {
+            padding: 5%;
+            background-color: rgb(82, 187, 213);
+            height: 141.5vh;
+        }
+        #portfolio {
+            padding: 5%;
+            background-color: rgb(82, 187, 213);
+            height: 141.5vh
         }
 }
