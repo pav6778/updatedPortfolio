@@ -41,7 +41,18 @@ body {
     height: 100%;
     background-color: black;
     padding-top:140px;
-
+}
+#social {
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 11.86%;
+    border: 1px solid rgb(194, 117, 0);
+}
+#social > a > img {
+    background-color: white;
+    width: 30px;
+    margin-left: 25px;
 }
 #homeBtn {
     width: 200px;
