@@ -1,3 +1,4 @@
+
 body {
     background-image: url(../images/photo-1486312338219-ce68d2c6f44d.jpeg);
     background-repeat: no-repeat;
@@ -40,6 +41,7 @@ body {
     height: 100%;
     background-color: black;
     padding-top:140px;
+
 }
 #homeBtn {
     width: 200px;
@@ -48,6 +50,13 @@ body {
     border:none;
     font-size: 1.6em;
     outline: none;
+    border-top: 1px solid rgb(194, 117, 0);;
+    border-bottom: 2px solid rgb(194, 117, 0);
+}
+#homeBtn:hover {
+    background-color: white;
+    color: black;
+    transition: .5s all ease;
 }
 #aboutMeBtn {
     width: 200px;
@@ -56,6 +65,12 @@ body {
     border:none;
     font-size: 1.6em;
     outline: none;
+    border-bottom: 2px solid rgb(194, 117, 0);
+}
+#aboutMeBtn:hover {
+    background-color: white;
+    color: black;
+    transition: .5s all ease;
 }
 #portfolioBtn {
     width: 200px;
@@ -64,6 +79,12 @@ body {
     border:none;
     font-size: 1.6em;
     outline: none;
+    border-bottom: 2px solid rgb(194, 117, 0);
+}
+#portfolioBtn:hover {
+    background-color: white;
+    color: black;
+    transition: .5s all ease;
 }
 #contactMeBtn {
     width: 200px;
@@ -72,6 +93,12 @@ body {
     border:none;
     font-size: 1.6em;
     outline: none;
+    border-bottom: 2px solid rgb(194, 117, 0);
+}
+#contactMeBtn:hover {
+    background-color: white;
+    color: black;
+    transition: .5s all ease;
 }
 #p{
     padding-left: 250px;
@@ -129,8 +156,8 @@ body {
     font-size: 16.7vh;
     text-align: center;
     color: #FFFFFF;
-background: #FFFFFF;
-text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+    background: #FFFFFF;
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
 }
 
 .card.col-3{
