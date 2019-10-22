@@ -988,27 +988,7 @@ background-color: black;
         }
 }
 @media (max-width: 360px) {
-    body {
-        background-image: url(../images/photo-1486312338219-ce68d2c6f44d.jpeg);
-        background-repeat: no-repeat;
-        background-size: 140vh;
-        background-position-y: 50px;
-    }   
-    #motto {
-        
-        border: none;
-        padding-top: 150px;
-        transition: top 0.5s;
-        display: block;
-        position: static;
-        left: 0;
-        color: white;
-        font-size: 12vh;
-        text-align: center;
-        color: #FFFFFF;
-        background: rgba(255, 255, 255, 0);
-        text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
-    }
+  
     #navBtns {
 
         position: fixed;
@@ -1025,8 +1005,7 @@ background-color: black;
         border:none;
         font-size: .7em !important;
         outline: none;
-        border-left: 2px solid rgb(194, 117, 0);;
-        border-right: 2px solid rgb(194, 117, 0);
+
     }
     #homeBtn:hover {
         background-color: white;
@@ -1044,8 +1023,7 @@ background-color: black;
         border:none;
         font-size: .7em !important;
         outline: none;
-        border-left: 2px solid rgb(194, 117, 0);;
-        border-right: 2px solid rgb(194, 117, 0);
+
     }
     #aboutMeBtn:hover {
         background-color: white;
@@ -1063,8 +1041,7 @@ background-color: black;
         border:none;
         font-size: .7em !important;
         outline: none;
-        border-left: 2px solid rgb(194, 117, 0);;
-        border-right: 2px solid rgb(194, 117, 0);
+
     }
     #portfolioBtn:hover {
         background-color: white;
@@ -1082,8 +1059,7 @@ background-color: black;
         border:none;
         font-size: .7em !important;
         outline: none;
-        border-left: 2px solid rgb(194, 117, 0);;
-        border-right: 2px solid rgb(194, 117, 0);
+
     }
     #contactMeBtn:hover {
         background-color: white;
@@ -1105,7 +1081,7 @@ background-color: black;
         position: fixed;
         bottom: 34px;
         width: 100%;
-        border: 1px solid rgb(194, 117, 0);
+
         padding-left: 23%;
     }
     #social {
@@ -1113,7 +1089,7 @@ background-color: black;
         position: fixed;
         bottom: 0;
         width: 100%;
-        border: 1px solid rgb(194, 117, 0);
+
         padding-left: 22%;
     }
     .card.col-sm-3.col-6{
@@ -1129,14 +1105,10 @@ background-color: black;
         #p {
             font-size: .9em;
         }
-        #aboutMe {
-            padding: 5%;
-            background-color: rgb(82, 187, 213);
-            height: 186.5vh;
-        }
+        #aboutMe,
         #portfolio {
             padding: 5%;
-            background-color: rgb(82, 187, 213);
+            background-color: rgb(255, 255, 255);
             height: 186.5vh;
         }
 }
