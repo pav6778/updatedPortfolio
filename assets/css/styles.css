@@ -222,24 +222,7 @@ background-color: black;
     div > div > div > .btn:hover {
         background-color: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
-    }
-    #motto {
-        border-bottom: #4074b5 solid 2px;
-        top:0;
-        transition: top 0.5s;
-        display: block;
-        height: 16.6%;
-        width: 100%;
-        position: fixed;
-        left: 120px;
-        color: white;
-        font-size: 16.7vh;
-        text-align: center;
-        color: #FFFFFF;
-        background: #FFFFFF;
-        text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
-    }
-    
+    }    
     .card.col-sm-3.col-6{
     position: static;
     padding: 0;
@@ -479,22 +462,6 @@ background-color: black;
         background-color: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
     }
-    #motto {
-        border-bottom: #4074b5 solid 2px;
-        top:0;
-        transition: top 0.5s;
-        display: block;
-        height: 10.6%;
-        width: 100%;
-        position: fixed;
-        left: 110px;
-        color: white;
-        font-size: 10.7vh;
-        text-align: center;
-        color: #FFFFFF;
-        background: #FFFFFF;
-        text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
-    }
     
     .card.col-sm-3.col-6{
     position: static;
@@ -596,7 +563,7 @@ background-color: black;
         position: fixed;
         bottom: 34px;
         width: 100%;
-        border: 1px solid rgb(194, 117, 0);
+
         padding-left: 37%;
     }
     #social {
@@ -604,7 +571,7 @@ background-color: black;
         position: fixed;
         bottom: 0;
         width: 100%;
-        border: 1px solid rgb(194, 117, 0);
+
         padding-left: 36%;
     }
     .card.col-sm-3.col-6{
@@ -835,7 +802,7 @@ background-color: black;
         position: fixed;
         bottom: 34px;
         width: 100%;
-        border: 1px solid rgb(194, 117, 0);
+
         padding: 0 auto 0 auto;
     }
     #social {
@@ -843,7 +810,7 @@ background-color: black;
         position: fixed;
         bottom: 0;
         width: 100%;
-        border: 1px solid rgb(194, 117, 0);
+
         padding: 0 auto 0 auto;
     }
     .card.col-sm-3.col-6{
@@ -956,7 +923,7 @@ background-color: black;
         position: fixed;
         bottom: 34px;
         width: 100%;
-        border: 1px solid rgb(194, 117, 0);
+
         padding-left: 20vh;
     }
     #social {
@@ -964,7 +931,7 @@ background-color: black;
         position: fixed;
         bottom: 0;
         width: 100%;
-        border: 1px solid rgb(194, 117, 0);
+
         padding-left: 19vh;
     }
     .card.col-sm-3.col-6{
@@ -1068,11 +1035,7 @@ background-color: black;
     }
     .container {
         width: 100%;
-        padding: 10px 0 10px 0;
-        background-color: rgba(255, 255, 255, 0.55);
         height: 190vh;
-        border-top: 1px solid rgb(0, 0, 0);
-        border-bottom: 1px solid rgb(0, 0, 0);
         margin-left: 0;
     }
 
