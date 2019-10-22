@@ -1,37 +1,20 @@
 
 body {
-    background-image: url(../images/photo-1486312338219-ce68d2c6f44d.jpeg);
+    background-image: url(../images/photo-1486312338219-ce68d2c6f44d.psd);
     background-repeat: no-repeat;
-    background-size: 200vh;
+    background-size: 198vh;
     background-position-y: -280px;
-    background-color: rgb(26, 75, 108);
+
 }   
-#landingpage {
+#landingpage, #mainContent, #portfolioContent, #contactContent{
     height: 100vh;
 }
-#mainContent {
-    height: 100vh;
-    padding-bottom: 50px;
-}
-#portfolioContent {
-    background-size: 100%;
-    height: 100vh;
-    
-}
-#contactContent {
-    height: 100vh;
 
-}
 .container {
-    padding: 100px;
-    margin-left: 14%;
-    background-color: rgba(169, 169, 169, 0.55);
-    height: 140vh;
+    padding-left: 300px !important;
+    margin-left: 200px;
+    height: 100vh;
     border-left: 1px solid rgb(0, 0, 0);
-    border-right: 1px solid rgb(0, 0, 0);
-    margin-top: 20px;
-    margin-bottom: 20px;
-
 }
 
 #navBtns {
@@ -39,7 +22,8 @@ body {
     top:0;
     width: 200px;
     height: 100%;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
+    opacity: .7;
     padding-top:140px;
 }
 #phoneNum{
@@ -57,70 +41,30 @@ body {
     position: fixed;
     bottom: 0;
     width: 200px;
-    border: 1px solid rgb(194, 117, 0);
+
 }
 #social > a > img {
     background-color: white;
     width: 30px;
     margin-left: 12px;
 }
-#homeBtn {
-    width: 200px;
-    background-color: black;
-    color: white;
+
+#homeBtn, #aboutMeBtn,#portfolioBtn, #contactMeBtn{
+    display: block;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
     border:none;
     font-size: 1.6em;
     outline: none;
-    border-top: 1px solid rgb(194, 117, 0);;
-    border-bottom: 2px solid rgb(194, 117, 0);
 }
-#homeBtn:hover {
-    background-color: white;
-    color: black;
-    transition: .5s all ease;
-}
-#aboutMeBtn {
-    width: 200px;
+#homeBtn:hover, #aboutMeBtn:hover, #portfolioBtn:hover, #contactMeBtn:hover {
+
     background-color: black;
     color: white;
-    border:none;
-    font-size: 1.6em;
-    outline: none;
-    border-bottom: 2px solid rgb(194, 117, 0);
-}
-#aboutMeBtn:hover {
-    background-color: white;
-    color: black;
     transition: .5s all ease;
 }
-#portfolioBtn {
-    width: 200px;
-    background-color: black;
-    color: white;
-    border:none;
-    font-size: 1.6em;
-    outline: none;
-    border-bottom: 2px solid rgb(194, 117, 0);
-}
-#portfolioBtn:hover {
-    background-color: white;
-    color: black;
-    transition: .5s all ease;
-}
-#contactMeBtn {
-    width: 200px;
-    background-color: black;
-    color: white;
-    border:none;
-    font-size: 1.6em;
-    outline: none;
-    border-bottom: 2px solid rgb(194, 117, 0);
-}
-#contactMeBtn:hover {
-    background-color: white;
-    color: black;
-    transition: .5s all ease;
-}
+
 #portfolioImg {
     border: 2px solid green;
     margin-right: 30px;
@@ -129,20 +73,12 @@ body {
 #p{
  font-family: 'Courier New', Courier, monospace;
 }
-#aboutMe {
+#aboutMe, #portfolio, #contactMe {
     padding: 5%;
-    background-color: rgb(82, 187, 213);
-    height: 110vh;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
 }
-#portfolio {
-    padding: 5%;
-    background-color: rgb(82, 187, 213);
-    height: 110vh
-}
-#contactMe {
-    padding: 5%;
-    background-color: rgb(82, 187, 213);
-}
+
 
 #textarea {
     border-radius: 5px;
@@ -174,22 +110,6 @@ div > div > div > .btn:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
-#motto {
-    border-bottom: #4074b5 solid 2px;
-    top:0;
-    transition: top 0.5s;
-    display: block;
-    height: 16.6%;
-    width: 100%;
-    position: fixed;
-    left: 120px;
-    color: white;
-    font-size: 16.7vh;
-    text-align: center;
-    color: #FFFFFF;
-    background: #FFFFFF;
-    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
-}
 
 .card.col-sm-3.col-6{
 position: static;
@@ -198,28 +118,16 @@ margin: 20px;
 background-color: black;
 
 }
-@media (max-width: 1199.98px) {
-
+@media (max-width: 1440px) {
     body {
-        background-image: url(../images/photo-1486312338219-ce68d2c6f44d.jpeg);
-        background-repeat: no-repeat;
-        background-size: 200vh;
-        background-position-y: -220px;
-        background-color: rgb(26, 75, 108);
+
+
     }   
-
-
     .container {
-        padding: 0;
-        margin-left: 25%;
-        background-color: rgba(169, 169, 169, 0.55);
-        height: 150vh;
-        border-left: 1px solid rgb(0, 0, 0);
-        border-right: 1px solid rgb(0, 0, 0);
-
-
+        width: 75%;
+        height: 100vh;
+        padding-left: 100px !important;
     }
-    
     #navBtns {
         position: fixed;
         top:0;
@@ -237,7 +145,6 @@ background-color: black;
         background-color: rgb(38, 38, 38);
         color: white;
      }
-    
     #social {
         background-color: rgb(255, 255, 255);
         position: fixed;
@@ -250,49 +157,9 @@ background-color: black;
         width: 30px;
         margin-left: 12px;
     }
-    #homeBtn {
-        width: 200px;
-        background-color: black;
-        color: white;
-        border:none;
-        font-size: 1.6em;
-        outline: none;
-        border-top: 1px solid rgb(194, 117, 0);;
-        border-bottom: 2px solid rgb(194, 117, 0);
-    }
-    #homeBtn:hover {
-        background-color: white;
-        color: black;
-        transition: .5s all ease;
-    }
-    #aboutMeBtn {
-        width: 200px;
-        background-color: black;
-        color: white;
-        border:none;
-        font-size: 1.6em;
-        outline: none;
-        border-bottom: 2px solid rgb(194, 117, 0);
-    }
-    #aboutMeBtn:hover {
-        background-color: white;
-        color: black;
-        transition: .5s all ease;
-    }
-    #portfolioBtn {
-        width: 200px;
-        background-color: black;
-        color: white;
-        border:none;
-        font-size: 1.6em;
-        outline: none;
-        border-bottom: 2px solid rgb(194, 117, 0);
-    }
-    #portfolioBtn:hover {
-        background-color: white;
-        color: black;
-        transition: .5s all ease;
-    }
+    #homeBtn,
+    #aboutMeBtn, 
+    #portfolioBtn, 
     #contactMeBtn {
         width: 200px;
         background-color: black;
@@ -300,8 +167,12 @@ background-color: black;
         border:none;
         font-size: 1.6em;
         outline: none;
-        border-bottom: 2px solid rgb(194, 117, 0);
+        border-top: 1px solid rgb(194, 117, 0);;
+
     }
+    #homeBtn:hover,
+    #aboutMeBtn:hover,
+    #portfolioBtn:hover,
     #contactMeBtn:hover {
         background-color: white;
         color: black;
@@ -315,19 +186,11 @@ background-color: black;
     #p{
      font-family: 'Courier New', Courier, monospace;
     }
-    #aboutMe {
-        padding: 5%;
-        background-color: rgb(82, 187, 213);
-        height: 140vh;
-    }
-    #portfolio {
-        padding: 5%;
-        background-color: rgb(82, 187, 213);
-        height: 140vh
-    }
+    #aboutMe,
+    #portfolio,
     #contactMe {
         padding: 5%;
-        background-color: rgb(82, 187, 213);
+        background-color: rgb(255, 255, 255);
     }
     
     #textarea {
@@ -387,27 +250,12 @@ background-color: black;
     
 }
 @media (max-width: 1200px) {
-
-    body {
-        background-image: url(../images/photo-1486312338219-ce68d2c6f44d.jpeg);
-        background-repeat: no-repeat;
-        background-size: 200vh;
-        background-position-y: -220px;
-        background-color: rgb(26, 75, 108);
-    }   
-
-    .container {
-        padding: 0px;
-        margin-left: 16%;
-        width: 100%;
-        background-color: rgba(169, 169, 169, 0.55);
-        height: 150vh;
-        border-left: 1px solid rgb(0, 0, 0);
-        border-right: 1px solid rgb(0, 0, 0);
-        margin-top: 20px;
-
-    }
     
+    .container {
+        width: 75%;
+        height: 100vh;
+        padding-left: 90px !important;
+    }
     #navBtns {
         position: fixed;
         top:0;
@@ -425,7 +273,6 @@ background-color: black;
         background-color: rgb(38, 38, 38);
         color: white;
      }
-    
     #social {
         background-color: rgb(255, 255, 255);
         position: fixed;
@@ -438,49 +285,9 @@ background-color: black;
         width: 30px;
         margin-left: 12px;
     }
-    #homeBtn {
-        width: 200px;
-        background-color: black;
-        color: white;
-        border:none;
-        font-size: 1.6em;
-        outline: none;
-        border-top: 1px solid rgb(194, 117, 0);;
-        border-bottom: 2px solid rgb(194, 117, 0);
-    }
-    #homeBtn:hover {
-        background-color: white;
-        color: black;
-        transition: .5s all ease;
-    }
-    #aboutMeBtn {
-        width: 200px;
-        background-color: black;
-        color: white;
-        border:none;
-        font-size: 1.6em;
-        outline: none;
-        border-bottom: 2px solid rgb(194, 117, 0);
-    }
-    #aboutMeBtn:hover {
-        background-color: white;
-        color: black;
-        transition: .5s all ease;
-    }
-    #portfolioBtn {
-        width: 200px;
-        background-color: black;
-        color: white;
-        border:none;
-        font-size: 1.6em;
-        outline: none;
-        border-bottom: 2px solid rgb(194, 117, 0);
-    }
-    #portfolioBtn:hover {
-        background-color: white;
-        color: black;
-        transition: .5s all ease;
-    }
+    #homeBtn,
+    #aboutMeBtn, 
+    #portfolioBtn, 
     #contactMeBtn {
         width: 200px;
         background-color: black;
@@ -488,8 +295,12 @@ background-color: black;
         border:none;
         font-size: 1.6em;
         outline: none;
-        border-bottom: 2px solid rgb(194, 117, 0);
+        border-top: 1px solid rgb(194, 117, 0);;
+
     }
+    #homeBtn:hover,
+    #aboutMeBtn:hover,
+    #portfolioBtn:hover,
     #contactMeBtn:hover {
         background-color: white;
         color: black;
@@ -503,206 +314,11 @@ background-color: black;
     #p{
      font-family: 'Courier New', Courier, monospace;
     }
-    #aboutMe {
-        padding: 5%;
-        background-color: rgb(82, 187, 213);
-        height: 140vh;
-    }
-    #portfolio {
-        padding: 5%;
-        background-color: rgb(82, 187, 213);
-        height: 140vh
-    }
+    #aboutMe,
+    #portfolio,
     #contactMe {
         padding: 5%;
-        background-color: rgb(82, 187, 213);
-    }
-    
-    #textarea {
-        border-radius: 5px;
-        margin-top: 40px;
-        height: 200px;
-        width: 100%;
-    }
-    #inputName{
-        border: 1px solid black;
-    }
-    #inputEmail{
-        border: 1px solid black;
-    }
-    #submitBtn {
-        border: 1px solid black;
-        border-radius: 5px;
-    }
-    .btn {
-        background-color: rgb(92, 92, 92);
-        width: 100%;
-        color: white;
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-    }
-    div > div > div > .btn {
-        background-color: rgb(0, 0, 0);
-    }
-    div > div > div > .btn:hover {
         background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-    }
-    #motto {
-        border-bottom: #4074b5 solid 2px;
-        top:0;
-        transition: top 0.5s;
-        display: block;
-        height: 16.6%;
-        width: 100%;
-        position: fixed;
-        left: 120px;
-        color: white;
-        font-size: 16.7vh;
-        text-align: center;
-        color: #FFFFFF;
-        background: #FFFFFF;
-        text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
-    }
-    
-    .card.col-md-3.col-6{
-    position: static;
-    padding: 0;
-    margin: 20px;
-    background-color: black;
-    
-    }
-    
-}
-@media (max-width: 991.98px) {
-
-    body {
-        background-image: url(../images/photo-1486312338219-ce68d2c6f44d.jpeg);
-        background-repeat: no-repeat;
-        background-size: 200vh;
-        background-position-y: -220px;
-        background-color: rgb(26, 75, 108);
-    }   
-
-    .container {
-        padding: 30px 0 30px 0;
-        background-color: rgba(169, 169, 169, 0.55);
-        height: 150vh;
-        border-left: 1px solid rgb(0, 0, 0);
-        border-right: 1px solid rgb(0, 0, 0);
-        margin-top: 20px;
-        margin-left: 23%;
-
-    }
-    
-    #navBtns {
-        position: fixed;
-        top:0;
-        width: 200px;
-        height: 100%;
-        background-color: black;
-        padding-top:140px;
-    }
-    #phoneNum{
-        font-size: .99em;
-         position: fixed;
-        bottom:35px;
-        padding-left: 5px;
-        width: 200px;
-        background-color: rgb(38, 38, 38);
-        color: white;
-     }
-    
-    #social {
-        background-color: rgb(255, 255, 255);
-        position: fixed;
-        bottom: 0;
-        width: 200px;
-        border: 1px solid rgb(194, 117, 0);
-    }
-    #social > a > img {
-        background-color: white;
-        width: 30px;
-        margin-left: 12px;
-    }
-    #homeBtn {
-        width: 200px;
-        background-color: black;
-        color: white;
-        border:none;
-        font-size: 1.6em;
-        outline: none;
-        border-top: 1px solid rgb(194, 117, 0);;
-        border-bottom: 2px solid rgb(194, 117, 0);
-    }
-    #homeBtn:hover {
-        background-color: white;
-        color: black;
-        transition: .5s all ease;
-    }
-    #aboutMeBtn {
-        width: 200px;
-        background-color: black;
-        color: white;
-        border:none;
-        font-size: 1.6em;
-        outline: none;
-        border-bottom: 2px solid rgb(194, 117, 0);
-    }
-    #aboutMeBtn:hover {
-        background-color: white;
-        color: black;
-        transition: .5s all ease;
-    }
-    #portfolioBtn {
-        width: 200px;
-        background-color: black;
-        color: white;
-        border:none;
-        font-size: 1.6em;
-        outline: none;
-        border-bottom: 2px solid rgb(194, 117, 0);
-    }
-    #portfolioBtn:hover {
-        background-color: white;
-        color: black;
-        transition: .5s all ease;
-    }
-    #contactMeBtn {
-        width: 200px;
-        background-color: black;
-        color: white;
-        border:none;
-        font-size: 1.6em;
-        outline: none;
-        border-bottom: 2px solid rgb(194, 117, 0);
-    }
-    #contactMeBtn:hover {
-        background-color: white;
-        color: black;
-        transition: .5s all ease;
-    }
-    #portfolioImg {
-        border: 2px solid green;
-        margin-right: 30px;
-        
-    }
-    #p{
-     font-family: 'Courier New', Courier, monospace;
-    }
-    #aboutMe {
-        padding: 5%;
-        background-color: rgb(82, 187, 213);
-        height: 140vh;
-    }
-    #portfolio {
-        padding: 5%;
-        background-color: rgb(82, 187, 213);
-        height: 140vh
-    }
-    #contactMe {
-        padding: 5%;
-        background-color: rgb(82, 187, 213);
     }
     
     #textarea {
@@ -761,31 +377,139 @@ background-color: black;
     }
     
 }
-@media (max-width: 767.98px) {
-    body {
-        background-image: url(../images/photo-1486312338219-ce68d2c6f44d.jpeg);
-        background-repeat: no-repeat;
-        background-size: 140vh;
-        background-position-y: 50px;
-    }   
-
-    #motto {
+@media (max-width: 991.98px) {
+    .container {
+        width: 70%;
+        height: 900px;
+    }
+    
+    #navBtns {
+        position: fixed;
+        top:0;
+        width: 200px;
+        height: 100%;
+        background-color: black;
+        padding-top:140px;
+    }
+    #phoneNum{
+        font-size: .99em;
+         position: fixed;
+        bottom:35px;
+        padding-left: 5px;
+        width: 200px;
+        background-color: rgb(38, 38, 38);
+        color: white;
+     }
+    
+    #social {
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        bottom: 0;
+        width: 200px;
+        border: 1px solid rgb(194, 117, 0);
+    }
+    #social > a > img {
+        background-color: white;
+        width: 30px;
+        margin-left: 12px;
+    }
+    #homeBtn,
+    #aboutMeBtn,
+    #portfolioBtn,
+    #contactMeBtn {
+        width: 200px;
+        background-color: black;
+        color: white;
+        border:none;
+        font-size: 1.6em;
+        outline: none;
+        border-top: 1px solid rgb(194, 117, 0);;
+    }
+    #homeBtn:hover,
+    #aboutMeBtn:hover,
+    #portfolioBtn:hover,
+    #contactMeBtn:hover {
+        background-color: white;
+        color: black;
+        transition: .5s all ease;
+    }
+    #portfolioImg {
+        border: 2px solid green;
+        margin-right: 30px;
         
-        border: none;
-        padding-top: 150px;
+    }
+    #p{
+     font-family: 'Courier New', Courier, monospace;
+    }
+    #aboutMe,
+    #portfolio,
+    #contactMe {
+
+        padding-top: 5%;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    #textarea {
+        border-radius: 5px;
+        margin-top: 40px;
+        height: 200px;
+        width: 100%;
+    }
+    #inputName{
+        border: 1px solid black;
+    }
+    #inputEmail{
+        border: 1px solid black;
+    }
+    #submitBtn {
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .btn {
+        background-color: rgb(92, 92, 92);
+        width: 100%;
+        color: white;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    div > div > div > .btn {
+        background-color: rgb(0, 0, 0);
+    }
+    div > div > div > .btn:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+    }
+    #motto {
+        border-bottom: #4074b5 solid 2px;
+        top:0;
         transition: top 0.5s;
         display: block;
-        position: static;
-        left: 0;
+        height: 10.6%;
+        width: 100%;
+        position: fixed;
+        left: 110px;
         color: white;
-        font-size: 12vh;
+        font-size: 10.7vh;
         text-align: center;
         color: #FFFFFF;
-        background: rgba(255, 255, 255, 0);
+        background: #FFFFFF;
         text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
     }
-    #navBtns {
+    
+    .card.col-sm-3.col-6{
+    position: static;
+    padding: 0;
+    margin: 20px;
+    background-color: black;
+    
+    }
+    
+}
+@media (max-width: 767.98px) {
+   
 
+ 
+    #navBtns {
         position: fixed;
         width: 0;
         background-color: black;
@@ -800,8 +524,6 @@ background-color: black;
         border:none;
         font-size: 1em;
         outline: none;
-        border-left: 2px solid rgb(194, 117, 0);;
-        border-right: 2px solid rgb(194, 117, 0);
     }
     #homeBtn:hover {
         background-color: white;
@@ -819,8 +541,6 @@ background-color: black;
         border:none;
         font-size: 1em;
         outline: none;
-        border-left: 2px solid rgb(194, 117, 0);;
-        border-right: 2px solid rgb(194, 117, 0);
     }
     #aboutMeBtn:hover {
         background-color: white;
@@ -838,8 +558,6 @@ background-color: black;
         border:none;
         font-size: 1em;
         outline: none;
-        border-left: 2px solid rgb(194, 117, 0);;
-        border-right: 2px solid rgb(194, 117, 0);
     }
     #portfolioBtn:hover {
         background-color: white;
@@ -857,8 +575,6 @@ background-color: black;
         border:none;
         font-size: 1em;
         outline: none;
-        border-left: 2px solid rgb(194, 117, 0);;
-        border-right: 2px solid rgb(194, 117, 0);
     }
     #contactMeBtn:hover {
         background-color: white;
@@ -866,12 +582,14 @@ background-color: black;
         transition: .5s all ease;
     }
     .container {
-        padding: 10px 0 10px 0;
-        background-color: rgba(255, 255, 255, 0.55);
-        height: 100vh;
-        border-top: 1px solid rgb(0, 0, 0);
-        border-bottom: 1px solid rgb(0, 0, 0);
-        margin-left: 14vh;
+        border: none;
+        width: 100%;
+        margin-left: 60px;
+        padding: 0;
+
+    }
+    h2 {
+        padding-top: 50px;
     }
     #phoneNum {
         background-color: rgb(0, 0, 0);
@@ -902,40 +620,15 @@ background-color: black;
         #p {
             font-size: .9em;
         }
-        #aboutMe {
-            padding: 5%;
-            background-color: rgb(82, 187, 213);
-            height: 97.4vh;
-        }
+        #aboutMe,
         #portfolio {
             padding: 5%;
-            background-color: rgb(82, 187, 213);
+            background-color: rgb(255, 255, 255);
             height: 97.4vh
         }
 }
 @media (max-width: 720px) {
-    body {
-        background-image: url(../images/photo-1486312338219-ce68d2c6f44d.jpeg);
-        background-repeat: no-repeat;
-        background-size: 140vh;
-        background-position-y: 50px;
-    }   
 
-    #motto {
-        
-        border: none;
-        padding-top: 150px;
-        transition: top 0.5s;
-        display: block;
-        position: static;
-        left: 0;
-        color: white;
-        font-size: 12vh;
-        text-align: center;
-        color: #FFFFFF;
-        background: rgba(255, 255, 255, 0);
-        text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
-    }
     #navBtns {
 
         position: fixed;
@@ -952,8 +645,7 @@ background-color: black;
         border:none;
         font-size: 1em;
         outline: none;
-        border-left: 2px solid rgb(194, 117, 0);;
-        border-right: 2px solid rgb(194, 117, 0);
+
     }
     #homeBtn:hover {
         background-color: white;
@@ -971,8 +663,6 @@ background-color: black;
         border:none;
         font-size: 1em;
         outline: none;
-        border-left: 2px solid rgb(194, 117, 0);;
-        border-right: 2px solid rgb(194, 117, 0);
     }
     #aboutMeBtn:hover {
         background-color: white;
@@ -990,8 +680,6 @@ background-color: black;
         border:none;
         font-size: 1em;
         outline: none;
-        border-left: 2px solid rgb(194, 117, 0);;
-        border-right: 2px solid rgb(194, 117, 0);
     }
     #portfolioBtn:hover {
         background-color: white;
@@ -1009,8 +697,6 @@ background-color: black;
         border:none;
         font-size: 1em;
         outline: none;
-        border-left: 2px solid rgb(194, 117, 0);;
-        border-right: 2px solid rgb(194, 117, 0);
     }
     #contactMeBtn:hover {
         background-color: white;
@@ -1018,19 +704,15 @@ background-color: black;
         transition: .5s all ease;
     }
     .container {
-        padding: 10px 0 10px 0;
-        background-color: rgba(255, 255, 255, 0.55);
+        margin-left: 0;
+        width: 100%;
         height: 100vh;
-        border-top: 1px solid rgb(0, 0, 0);
-        border-bottom: 1px solid rgb(0, 0, 0);
-        margin-left: 12vh;
     }
     #phoneNum {
         background-color: rgb(0, 0, 0);
         position: fixed;
         bottom: 34px;
         width: 100%;
-        border: 1px solid rgb(194, 117, 0);
         padding-left: 35%;
     }
     #social {
@@ -1038,13 +720,12 @@ background-color: black;
         position: fixed;
         bottom: 0;
         width: 100%;
-        border: 1px solid rgb(194, 117, 0);
         padding-left: 34%;
     }
     .card.col-sm-3.col-6{
         position: static;
         padding: 0;
-        background-color: black;
+        background-color: rgb(255, 255, 255);
         margin: 0;
         }
         #portfolioImg {
@@ -1054,40 +735,16 @@ background-color: black;
         #p {
             font-size: .9em;
         }
-        #aboutMe {
-            padding: 5%;
-            background-color: rgb(82, 187, 213);
-            height: 97.4vh;
-        }
+        #aboutMe,
         #portfolio {
             padding: 5%;
-            background-color: rgb(82, 187, 213);
+            background-color: rgb(255, 255, 255);
             height: 97.4vh
         }
 }
 @media (max-width: 575.98px) {
-    body {
-        background-image: url(../images/photo-1486312338219-ce68d2c6f44d.jpeg);
-        background-repeat: no-repeat;
-        background-size: 140vh;
-        background-position-y: 50px;
-    }   
+ 
 
-    #motto {
-        
-        border: none;
-        padding-top: 150px;
-        transition: top 0.5s;
-        display: block;
-        position: static;
-        left: 0;
-        color: white;
-        font-size: 12vh;
-        text-align: center;
-        color: #FFFFFF;
-        background: rgba(255, 255, 255, 0);
-        text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
-    }
     #navBtns {
 
         position: fixed;
@@ -1104,8 +761,7 @@ background-color: black;
         border:none;
         font-size: 1em;
         outline: none;
-        border-left: 2px solid rgb(194, 117, 0);;
-        border-right: 2px solid rgb(194, 117, 0);
+
     }
     #homeBtn:hover {
         background-color: white;
@@ -1123,8 +779,7 @@ background-color: black;
         border:none;
         font-size: 1em;
         outline: none;
-        border-left: 2px solid rgb(194, 117, 0);;
-        border-right: 2px solid rgb(194, 117, 0);
+
     }
     #aboutMeBtn:hover {
         background-color: white;
@@ -1142,8 +797,7 @@ background-color: black;
         border:none;
         font-size: 1em;
         outline: none;
-        border-left: 2px solid rgb(194, 117, 0);;
-        border-right: 2px solid rgb(194, 117, 0);
+
     }
     #portfolioBtn:hover {
         background-color: white;
@@ -1161,8 +815,7 @@ background-color: black;
         border:none;
         font-size: 1em;
         outline: none;
-        border-left: 2px solid rgb(194, 117, 0);;
-        border-right: 2px solid rgb(194, 117, 0);
+
     }
     #contactMeBtn:hover {
         background-color: white;
@@ -1170,13 +823,12 @@ background-color: black;
         transition: .5s all ease;
     }
     .container {
-        padding: 10px 0 10px 0;
-        background-color: rgba(255, 255, 255, 0.55);
+
+    
         height: 100vh;
-        border-top: 1px solid rgb(0, 0, 0);
-        border-bottom: 1px solid rgb(0, 0, 0);
         width: 100%;
         margin-left: 0;
+        padding-left: 0 !important;
     }
     #phoneNum {
         background-color: rgb(0, 0, 0);
@@ -1207,40 +859,15 @@ background-color: black;
         #p {
             font-size: .9em;
         }
-        #aboutMe {
-            padding: 5%;
-            background-color: rgb(82, 187, 213);
-            height: 97.4vh;
-        }
+        #aboutMe,
         #portfolio {
             padding: 5%;
-            background-color: rgb(82, 187, 213);
+            background-color: rgb(255, 255, 255);
             height: 97.4vh
         }
 }
 @media (max-width: 500px) {
-    body {
-        background-image: url(../images/photo-1486312338219-ce68d2c6f44d.jpeg);
-        background-repeat: no-repeat;
-        background-size: 140vh;
-        background-position-y: 50px;
-    }   
-
-    #motto {
-        
-        border: none;
-        padding-top: 150px;
-        transition: top 0.5s;
-        display: block;
-        position: static;
-        left: 0;
-        color: white;
-        font-size: 12vh;
-        text-align: center;
-        color: #FFFFFF;
-        background: rgba(255, 255, 255, 0);
-        text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
-    }
+  
     #navBtns {
 
         position: fixed;
@@ -1257,8 +884,7 @@ background-color: black;
         border:none;
         font-size: 1em;
         outline: none;
-        border-left: 2px solid rgb(194, 117, 0);;
-        border-right: 2px solid rgb(194, 117, 0);
+
     }
     #homeBtn:hover {
         background-color: white;
@@ -1276,8 +902,7 @@ background-color: black;
         border:none;
         font-size: 1em;
         outline: none;
-        border-left: 2px solid rgb(194, 117, 0);;
-        border-right: 2px solid rgb(194, 117, 0);
+
     }
     #aboutMeBtn:hover {
         background-color: white;
@@ -1295,8 +920,7 @@ background-color: black;
         border:none;
         font-size: 1em;
         outline: none;
-        border-left: 2px solid rgb(194, 117, 0);;
-        border-right: 2px solid rgb(194, 117, 0);
+
     }
     #portfolioBtn:hover {
         background-color: white;
@@ -1314,20 +938,15 @@ background-color: black;
         border:none;
         font-size: 1em;
         outline: none;
-        border-left: 2px solid rgb(194, 117, 0);;
-        border-right: 2px solid rgb(194, 117, 0);
+
     }
     #contactMeBtn:hover {
-        background-color: white;
-        color: black;
+        background-color: black;
+        color: white;
         transition: .5s all ease;
     }
     .container {
-        padding: 10px 0 10px 0;
-        background-color: rgba(255, 255, 255, 0.55);
         height: 140vh;
-        border-top: 1px solid rgb(0, 0, 0);
-        border-bottom: 1px solid rgb(0, 0, 0);
         margin-left: 0;
         width: 100%;
 
@@ -1361,14 +980,10 @@ background-color: black;
         #p {
             font-size: .9em;
         }
-        #aboutMe {
-            padding: 5%;
-            background-color: rgb(82, 187, 213);
-            height: 137vh;
-        }
+        #aboutMe,
         #portfolio {
             padding: 5%;
-            background-color: rgb(82, 187, 213);
+            background-color: rgb(255, 255, 255);
             height: 137vh
         }
 }
